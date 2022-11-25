@@ -55,6 +55,7 @@ margin-bottom: 35px;
     background-color: rgb(253, 253, 253);
     border-radius: 8px;
     max-width: 500px;
+    padding: 35px;
 }
 #cadas h1{
     font-size: 35px;
@@ -63,7 +64,7 @@ margin-bottom: 35px;
 }
 .container #login{
     margin-top: 55px;
-    padding: 5px;
+    padding: 35px;
     background-color: rgb(253, 253, 253);
     border-radius: 8px;
     max-width: 500px;
@@ -74,7 +75,7 @@ margin-bottom: 35px;
     text-align: center;
 }
 .input-group{
-    padding: 20px;
+    padding: 5px;
 }
 .input-group .form-check{
     padding: 20px;
