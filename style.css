@@ -1,0 +1,66 @@
+body{
+    background-color: #222;
+}
+#home h1{
+padding-top: 20px;
+color: rgb(233, 233, 233);
+font-size: 40px;
+}
+#home img{
+    width: 400px;
+}
+footer {
+    padding-top: 30px;
+}
+footer h5{
+    color:rgb(233, 233, 233);
+    font-size: 13px;
+}
+button{
+    border: none;
+    border-radius: 5px;
+}
+#link button{
+padding: 10px;
+margin: 15px;
+margin-bottom: 35px;
+}
+#btn1{
+    background-color: #4724E3;
+    color: rgb(243, 243, 243);
+    font-size: 25px;
+}
+#btn1:hover{
+    background-color: #4724e3a2;
+    color: rgb(243, 243, 243);
+    font-size: 25px;
+}
+#btn2{
+    background-color: #FEC045;
+    color: rgb(49, 49, 49);
+}
+#btn2:hover{
+    background-color: #fec045b2;
+    color: rgb(49, 49, 49);
+}
+.container #cadas{
+    margin-top: 20vh;
+    margin-bottom: 25%;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+#cadas h1{
+    font-size: 35px;
+    color: #222;
+    text-align: center;
+}
+.input-group{
+    padding: 20px;
+}
+.input-group .form-check{
+    padding: 20px;
+}
+.container #nav{
+    text-align: center;
+}
