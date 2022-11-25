@@ -43,14 +43,32 @@ margin-bottom: 35px;
     background-color: #fec045b2;
     color: rgb(49, 49, 49);
 }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 .container #cadas{
-    margin-top: 20vh;
-    margin-bottom: 25%;
-    padding: 20px;
-    background-color: rgb(255, 255, 255);
+    margin-top: 55px;
+    padding: 25px;
+    background-color: rgb(253, 253, 253);
     border-radius: 8px;
+    max-width: 500px;
 }
 #cadas h1{
+    font-size: 35px;
+    color: #222;
+    text-align: center;
+}
+.container #login{
+    margin-top: 55px;
+    padding: 5px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 8px;
+    max-width: 500px;
+}
+#login h1{
     font-size: 35px;
     color: #222;
     text-align: center;
