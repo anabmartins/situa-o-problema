@@ -65,6 +65,16 @@ margin-bottom: 35px;
     padding: 35px;
     
 }
+.container #home{
+    max-width: 500px;
+    max-height: 350px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    margin: auto;
+}
 #cadas h1{
     font-size: 35px;
     color: #222;
