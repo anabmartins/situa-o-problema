@@ -50,23 +50,11 @@ margin-bottom: 35px;
     flex-direction: column;
 }
 .container #cadas{
-    margin-top: 55px;
-    padding: 25px;
+    padding: 35px;
     background-color: rgb(253, 253, 253);
     border-radius: 8px;
     max-width: 550px;
-    max-height: 530px;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    top: 0;
-    left: 0;
-    margin: auto;
-    padding: 35px;
-}
-.container #home{
-    max-width: 500px;
-    max-height: 350px;
+    max-height: 560px;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -79,6 +67,12 @@ margin-bottom: 35px;
     color: #222;
     text-align: center;
     padding-bottom: 20px;
+}
+#cadas p{
+    text-align: left;
+    font-size: 18px;
+    color: #FEC045;
+    font-weight: bold;
 }
 .container #login{
     margin-top: 55px;
@@ -104,7 +98,7 @@ margin-bottom: 35px;
     padding: 5px;
 }
 .input-group .form-check{
-    padding: 20px;
+    margin: 20px 20px 0 0;
 }
 .container #nav{
     text-align: center;
@@ -131,4 +125,6 @@ a:link {
   a:visited{
     color: #3f2a00;
   }
-  
+  #serie{
+    display: none;
+  }
