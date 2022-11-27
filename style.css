@@ -54,7 +54,7 @@ margin-bottom: 35px;
     background-color: rgb(253, 253, 253);
     border-radius: 8px;
     max-width: 550px;
-    max-height: 510px;
+    max-height: 500px;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -95,6 +95,29 @@ margin-bottom: 35px;
     padding-bottom: 20px;
 }
 #login #forg{
+color: #f0b716;
+}
+.container #recSenha{
+    margin-top: 55px;
+    padding: 35px;
+    background-color: rgb(253, 253, 253);
+    border-radius: 8px;
+    max-width: 500px;
+    max-height: 340px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    margin: auto;
+}
+#recSenha h1{
+    font-size: 35px;
+    color: #222;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#recSenha #forg{
 color: #f0b716;
 }
 .input-group{
