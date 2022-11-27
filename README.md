@@ -1,7 +1,7 @@
 # Trabalho da Prova do 3° Trimestre
 Front-End com:
 - TELA DE LOGIN (login.html)
---Uma tela com usuário, senha, recuperar senha e cadastrar usuário. 
+#Uma tela com usuário, senha, recuperar senha e cadastrar usuário. 
 
 - TELA DE RECUPERAR SENHA (senha.html)
 --Uma tela para recuperar a senha cadastrada. Não precisa ser funcional. 
