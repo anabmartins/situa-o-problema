@@ -106,14 +106,14 @@ color: #f0b716;
 .container #nav{
     text-align: center;
 }
-#btn{
+.btn{
     margin: 20px;
     padding: 11px;
     border-radius: 5px;
     background-color: #FEC045;
     color: #3f2a00;
 }
-#btn:hover{
+.btn:hover{
     background-color: #fec045c0;
 }
 a:link {

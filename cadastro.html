@@ -16,27 +16,28 @@
 
     <div class="container text-center">
         <div id="cadas">
+            <div id="fase1">
             <h1>
                 Cadastre-se
             </h1>
             <div class="input-group">
                 <span class="input-group-text">Matrícula</span>
-                <input type="number" placeholder="Número da matrícula" class="form-control">
+                <input type="number" placeholder="Número da matrícula" class="form-control" name="signupForm" id="matricula">
             </div>        
             <div class="input-group">
                 <span class="input-group-text">Nome e sobrenome</span>
-                <input type="text" placeholder="nome" class="form-control">
-                <input type="text" placeholder="sobrenome" class="form-control">
+                <input type="text" placeholder="nome" name="signupForm" class="form-control" id="nome">
+                <input type="text" placeholder="sobrenome" class="form-control" name="signupForm" id="sobrenome">
               </div>
     
             <div class="input-group">
                 <span class="input-group-text">Data de nascimento</span>
-                <input type="date" class="form-control">
+                <input type="date" class="form-control" name="signupForm" id="data">
               </div>
             <div class="input-group">
                 <span class="input-group-text">Endereço</span>
-                <input type="text" placeholder="CEP" class="form-control">
-                <input type="text" placeholder="rua" class="form-control">
+                <input type="text" placeholder="Estado" name="signupForm" class="form-control" id="estado">
+                <input type="text" placeholder="Cidade" name="signupForm" class="form-control" id="cidade">
               </div>
               <div class="input-group">
                 <div class="form-check">
@@ -72,8 +73,8 @@
                     </label>
                 </div>
               </div>
-              <a href=""><button id="btn">Cadastrar</button></a>
-
+              <a href=""><button class="btn" id="btnCadastro">Cadastrar</button></a>
+            </div>
               <div id="nav">
               <a href="home.html">Home </a>|<a href="login.html"> Login</a>
             </div>
