@@ -1,7 +1,5 @@
-aluno = document.getElementById('aluno')
-professor = document.getElementsByName('professor')
 serie = document.getElementById('serie')
-
+container = document.querySelector('#cadas')
   // if(aluno.checked = true){
   //   serie.style.display = 'flex'
   // } else {
@@ -12,9 +10,11 @@ document.body.addEventListener('change', function(e){
   switch(target.id){
     case 'aluno':
       serie.style.display = 'flex';
+      container.style.maxHeight = '560px';
       break;
     case 'professor':
       serie.style.display = 'none';
+      container.style.maxHeight = '510px';
       break
   }
 })
