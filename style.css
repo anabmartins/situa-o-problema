@@ -80,7 +80,7 @@ margin-bottom: 35px;
     background-color: rgb(253, 253, 253);
     border-radius: 8px;
     max-width: 500px;
-    max-height: 350px;
+    max-height: 370px;
     position: absolute;
     bottom: 0;
     right: 0;
@@ -93,6 +93,9 @@ margin-bottom: 35px;
     color: #222;
     text-align: center;
     padding-bottom: 20px;
+}
+#login #forg{
+color: #f0b716;
 }
 .input-group{
     padding: 5px;
